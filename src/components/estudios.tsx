@@ -1,17 +1,16 @@
 import React from "react";
-import disney from "./assets/img/disney.png";
-import marvel from "./assets/img/marvel.png";
-import national from "./assets/img/national.png";
-import pixar from "./assets/img/pixar.png";
-import starwars from "./assets/img/starwars.png";
-import disneyVideo from "./assets/videos/disney.mp4";
-import marvelVideo from "./assets/videos/marvel.mp4";
-import nationalVideo from "./assets/videos/national.mp4";
-import pixarVideo from "./assets/videos/pixar.mp4";
-import starwarsVideo from "./assets/videos/starwars.mp4";
-import "./App.css";
-
-function App() {
+import disney from "../assets/img/disney.png";
+import marvel from "../assets/img/marvel.png";
+import national from "../assets/img/national.png";
+import pixar from "../assets/img/pixar.png";
+import starwars from "../assets/img/starwars.png";
+import disneyVideo from "../assets/videos/disney.mp4";
+import marvelVideo from "../assets/videos/marvel.mp4";
+import nationalVideo from "../assets/videos/national.mp4";
+import pixarVideo from "../assets/videos/pixar.mp4";
+import starwarsVideo from "../assets/videos/starwars.mp4";
+import "../styles/estudios.css";
+export default function Estudios() {
   return (
     <div className="carroussel">
       <div className="item disney">
@@ -51,5 +50,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

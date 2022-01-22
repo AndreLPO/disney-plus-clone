@@ -1,0 +1,34 @@
+.menuitem {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  color: #f9f9f9;
+}
+
+.menuitem img {
+  width: 20px;
+  height: 20px;
+}
+
+.menuitem p {
+  position: relative;
+  font-family: Avenir;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.menuitem p::after {
+  content: "";
+  transition: 0.2s;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  background-color: #f9f9f9;
+  width: 0;
+}
+
+.menuitem p:hover::after {
+  width: 100%;
+}
