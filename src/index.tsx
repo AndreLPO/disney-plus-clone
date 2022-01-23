@@ -5,28 +5,13 @@ import reportWebVitals from "./reportWebVitals";
 import Estudios from "./components/estudios";
 import AppBarComponent from "./components/appbar";
 import Footer from "./components/footer";
+import SliderComponent from "./components/slider";
 
 ReactDOM.render(
   <React.StrictMode>
     <AppBarComponent />
+    <SliderComponent />
     <Estudios />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <Footer />
   </React.StrictMode>,
   document.getElementById("root")

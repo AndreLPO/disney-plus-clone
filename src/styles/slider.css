@@ -1,0 +1,15 @@
+.slider {
+  display: flex;
+  overflow: hidden;
+  gap: 40px;
+}
+
+.slider .slider-item {
+  margin: 0 50px;
+  flex-basis: 1200px;
+  flex-shrink: 0;
+  height: 45vh;
+  margin: 40px 0;
+  width: 1400px;
+  background-color: red;
+}

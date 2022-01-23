@@ -3,7 +3,7 @@ import logo from "../assets/img/disneyplus.png";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="no-select">
       <img src={logo} alt="Logo disney plus" />
       <section className="politica">
         <p>Política de Privacidade</p>
@@ -16,8 +16,8 @@ export default function Footer() {
         <p>Sobre o Disney+</p>
         <p>Anúncios personalizados</p>
       </section>
-      <section className="termos">
-        <p unselectable="on">
+      <section className="termos ">
+        <p>
           Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e
           condições. O serviço Disney+ é comercializado por The Walt Disney
           Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas,
