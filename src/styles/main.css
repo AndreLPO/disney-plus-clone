@@ -11,6 +11,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #f9f9f9;
+  font-family: Avenir;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, #090b13, #0f1119);
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  height: 40px;
+  object-fit: contain;
+}
+
+footer section {
+  display: flex;
+  gap: 20px;
+  max-width: 450px;
+  font-size: 9pt;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  line-height: 20px;
+}
+
+footer section p {
+  opacity: 0.7;
+}
+
+footer .politica p:hover,
+footer .ajuda p:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+footer .termos {
+  max-width: 445px;
+  user-select: none;
 }
 
 code {

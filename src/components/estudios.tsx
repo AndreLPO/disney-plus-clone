@@ -12,7 +12,7 @@ import starwarsVideo from "../assets/videos/starwars.mp4";
 import "../styles/estudios.css";
 export default function Estudios() {
   return (
-    <div className="carroussel">
+    <div className="estudios">
       <div className="item disney">
         <img src={disney} alt="Logo Disney" />
         <video height={130} loop={true} playsInline autoPlay={true}>

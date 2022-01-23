@@ -1,4 +1,24 @@
 .appbar {
+  display: grid;
+  max-width: 100vw;
+  grid-template-columns: 1fr 100fr 1fr 1fr;
+  padding: 16px 50px;
+  background-image: linear-gradient(to bottom, #050608, rgba(255, 255, 255, 0));
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.avatar {
+  height: 50px;
+  justify-self: end;
+}
+
+.menu {
   display: flex;
   gap: 40px;
 }

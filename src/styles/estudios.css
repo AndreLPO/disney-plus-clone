@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.carroussel {
+.estudios {
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 .item {
   display: flex;
   flex: 1;
-  height: 130px;
+  height: 20vh;
   overflow: hidden;
   background-image: linear-gradient(to bottom, #2e303c, #20212c, #1e1f2a);
   justify-content: center;
@@ -36,7 +36,7 @@
 
 .item img,
 .item video {
-  height: 130px;
+  height: 20vh;
   width: 100%;
   position: absolute;
 }

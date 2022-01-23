@@ -4,11 +4,30 @@ import "./styles/main.css";
 import reportWebVitals from "./reportWebVitals";
 import Estudios from "./components/estudios";
 import AppBarComponent from "./components/appbar";
+import Footer from "./components/footer";
 
 ReactDOM.render(
   <React.StrictMode>
     <AppBarComponent />
     <Estudios />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <Footer />
   </React.StrictMode>,
   document.getElementById("root")
 );
