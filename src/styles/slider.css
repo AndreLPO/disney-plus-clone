@@ -1,15 +1,35 @@
 .slider {
+  margin-left: -87vw;
   display: flex;
   overflow: hidden;
-  gap: 40px;
+  gap: 1.5vw;
+  position: relative;
+}
+.visivel {
+  margin: 40px 0;
+  height: 48vh;
+  position: relative;
+  width: 100%;
+}
+.visivel .fundo-seta {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+  position: absolute;
+}
+.visivel .seta {
+  height: 40px;
+  z-index: 2;
+  fill: #f9f9f9;
 }
 
 .slider .slider-item {
-  margin: 0 50px;
-  flex-basis: 1200px;
+  flex-basis: 90vw;
   flex-shrink: 0;
-  height: 45vh;
-  margin: 40px 0;
-  width: 1400px;
+  height: 48vh;
+  border-radius: 5px;
   background-color: red;
 }
